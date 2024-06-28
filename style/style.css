@@ -106,6 +106,67 @@
     font-size: 1rem;
     text-align: center;
     color: white;
+    border: none;
+}
+
+/* ----------------------------------------------------------Populer section start here---------------------- */
+.popular-section{
+
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 600px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.popular-description-part{
+    max-width: 50%;
+    min-height: 600px;
+
+    
+}
+
+.popular-description-part h1 {
+    font-size: 2.8rem;
+    margin-bottom: 31px;
+}
+.popular-description-part p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+    margin-bottom: 31px;
+}
+.ul-list {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-left: 21px;
+    text-align: justify;
+}
+.ul-list li{
+    margin-bottom: 32px;
+}
+.btn-popular {
+    padding: 16px 48px 13px 31px;
+    border-radius: 10px;
+    background-color: #FE5400;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.popular-image-part{
+    max-width: 50%;
+    margin: 0 auto;
+    min-height: 600px;
+
+}
+.popular-image-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 26px;
+    border-radius: 10px;
+
 }
 
 
@@ -135,12 +196,27 @@
         margin-top: 80px;
     }
     .banner-description h1 {
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-    padding-top: 32px;
-}
+        font-size: 1.8rem;
+        margin-bottom: -8px;
+        padding-top: 14px;
+    }
     .banner-description p{
         max-width: 100%;
         text-align: center;
+    }
+
+    .popular-section{
+        flex-direction: column;
+        margin: 20px;
+
+    }
+
+    .popular-description-part{
+        max-width: 100%;
+    }
+    .popular-image-part {
+        max-width: 99%;
+        margin-left: -27px;
+        margin-top: 21px;
     }
 }
