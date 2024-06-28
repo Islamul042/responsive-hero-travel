@@ -6,7 +6,6 @@
 .nav-part{
     max-width: 1250px;
     margin: 0 auto;
-    border: 4px solid red;
     min-height: 80px;
     display: flex;
     justify-content: space-between;
@@ -14,7 +13,6 @@
 
 .logo-part{
     max-width: 50%;
-    border: 4px solid yellow;
     min-height: 80px;
     display: flex;
     gap: 15px;
@@ -30,7 +28,6 @@
 }
 .menu-part{
     max-width: 50%;
-    border: 4px solid purple;
     min-height: 80px;
     text-align: center;
    
@@ -54,6 +51,62 @@
     color: #FE5400;
 }
 
+/* ------------------------------------------Banner section------------------------------ */
+.banner-section {
+    max-width: 1250px;
+    border: 3px solid red;
+    margin: 0 auto;
+    height: 600px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-description {
+    margin-top: 174px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-description h1 {
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+.banner-description p {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(0,0,0,.5);
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+.input-field input {
+    padding: 12px 0px 19px 1px;
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+
+.btn-primay {
+    padding: 12px 0px 19px 1px;
+    padding: 5px;
+    border-radius: 10px;
+    padding: 20px 56px 13px 44px;
+    background-color: #FE5400;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
 
 /* ---------------------------------------Mobile Device Responsive------------- */
 
@@ -72,5 +125,21 @@
     }
     .menu-part{
         max-width: 100%;
+    }
+
+    .input-field{
+        flex-direction: column;
+    }
+    .banner-description{
+        margin-top: 80px;
+    }
+    .banner-description h1{
+        font-size: 1.5rem;
+        
+    
+    }
+    .banner-description p{
+        max-width: 100%;
+        text-align: center;
     }
 }
