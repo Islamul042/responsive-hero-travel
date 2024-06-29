@@ -168,6 +168,183 @@
     border-radius: 10px;
 
 }
+/* 
+----------------------------------------image-galery start here----------------------------- */
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+.container h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container p{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 900px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.image-container{
+    border: 3px solid yellow;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+
+  
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item-1{
+    grid-column: 1/span 6;
+}
+.grid-item-2{
+    grid-column: 7/span 6;
+}
+.grid-item-3{
+    grid-column: 1/span 4;
+}
+.grid-item-4{
+    grid-column: 5/span 4;
+}
+.grid-item-5{
+    grid-column: 9/span 4;
+}
+.grid-item-6{
+    grid-column: 1/span 5;
+}
+.grid-item-7{
+    grid-column: 6/span 7;
+}
+
+/* ------------------------------------------Why Choose Us Section start here------------------------- */
+
+.why-choose-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 3px solid purple;
+    height: 706px;
+}
+
+.top-description-part{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.top-description-part h2{
+    font-size: 2rem;
+    font-weight: 900px;
+    margin-bottom: 30px;
+}
+.top-description-part{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 900px;
+}
+
+.bottom-two-part-des{
+    border: 3px solid red;
+    display: flex;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left-part-des{
+    border: 3px solid yellow;
+    max-width: 50%;
+    background-color: #FFFCF7;
+    border-radius: 10px;
+    padding: 10px;
+}
+.left-part-des img{
+    width: 20%;
+}
+.left-part-des h2{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+
+}
+.left-part-des p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.right-part-des{
+    border: 3px solid yellowgreen;
+    max-width: 50%;
+    background-color: #F3FDFE;
+    border-radius: 10px;
+    padding: 10px;
+}
+.right-part-des img{
+    width: 20%;
+}
+.right-part-des h2{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.right-part-des p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.bottom-part{
+    max-width: 50%;
+    margin: 0 auto;
+    border: 3px solid green;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FEF5F6;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bottom-part h2{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.bottom-part p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.bottom-part img{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---------------------------------------Mobile Device Responsive------------- */
@@ -219,4 +396,63 @@
         margin-left: -27px;
         margin-top: 21px;
     }
+
+    .image-container{
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
+    .grid-item-1{
+        grid-column: 1/span 12;
 }
+.grid-item-2{
+    grid-column: 1/span 12;
+}
+.grid-item-3{
+    grid-column: 1/span 12;
+}
+.grid-item-4{
+    grid-column: 1/span 12;
+}
+.grid-item-5{
+    grid-column: 1/span 12;
+}
+.grid-item-6{
+    grid-column: 1/span 12;
+}
+.grid-item-7{
+    grid-column: 1/span 12;
+}
+.container p{
+    max-width: 100%;
+    line-height: 24px;
+}
+.container h2{
+    font-size: 1.5rem;
+    max-width: 100%;
+}
+.top-description-part {
+    max-width: 100%;
+}
+.top-description-part h2 {
+    font-size: 1.5rem;
+    margin-top: 19px;
+    margin-bottom: 6px;
+}
+.bottom-two-part-des{
+    flex-direction: column;
+}
+.left-part-des{
+    max-width: 100%;
+}
+.right-part-des{
+    max-width: 100%;
+}
+
+.bottom-part{
+    max-width: 100%;
+}
+
+
+}
+
