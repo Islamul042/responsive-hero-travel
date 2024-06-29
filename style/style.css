@@ -326,6 +326,88 @@
     width: 20%;
 }
 
+/* -----------------------------------Deals & Discount section start here-------------------------- */
+.deals-discount-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 3px solid darkblue;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+
+}
+.deals-discount-description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deals-discount-description h2{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.deals-discount-description p{
+    font-size: 1rem;
+    line-height: 2rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.image-part{
+    border: 3px solid purple;
+}
+.image-part img{
+    width: 100%;
+}
+.deals-description-part {
+    text-align: left;
+    max-width: 40%;
+    background: #F3FDFE;
+    opacity: 88%;
+    position: absolute;
+    margin-top: -492px;
+    margin-left: 593px;
+    padding: 52px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.deals-description-part .fa-solid {
+    color: #FE5400;
+    font-size: 1rem;
+    gap: 10px;
+    margin-right: 6px;
+}
+.deals-span {
+    margin-right: 29px;
+    font-size: 1.3rem;
+}
+
+.deals-style h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.deals-style p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+.btn-popular {
+    padding: 16px 48px 13px 31px;
+    border-radius: 10px;
+    background-color: #FE5400;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.span-price{
+    color: #FE5400;
+}
+
+
 
 
 
@@ -452,7 +534,30 @@
 .bottom-part{
     max-width: 100%;
 }
+.deals-description-part {
+    max-width: 60%;
+    margin-top: -463px;
+    margin-left: 99px;
+    padding: 17px;
+    font-size: 10px;
+}
+.deals-discount-section {
+    margin-top: -382px;
+}
 
+.deals-discount-description {
+    margin-top: 716px;
+}
+.deals-discount-description p{
+    max-width: 100%;
+}
+.image-part{
+   margin-top: 10px; 
+}
+.image-part img {
+    width: 552px;
+    height: 615px;
+}
 
 }
 
