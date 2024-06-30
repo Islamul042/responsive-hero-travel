@@ -3,12 +3,13 @@
     padding: 0;
 
 }
-.nav-part{
+.nav-part {
     max-width: 1250px;
     margin: 0 auto;
     min-height: 80px;
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .logo-part{
@@ -79,15 +80,15 @@
     margin-bottom: 30px;
 }
 
-.input-field{
+.input-field {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: rgba(0,0,0,.5);
+    background-color: #F3F3F3;
     max-width: 70%;
     margin: 0 auto;
-
+    opacity: 80%;
 }
 .input-field input {
     padding: 12px 0px 19px 1px;
@@ -668,8 +669,12 @@ footer{
     .image-container{
         grid-template-columns: repeat(1,1fr);
 
-
     }
+    .image-container img {
+        max-width: 93%;
+        margin-left: 24px;
+    }
+
     .grid-item-1{
         grid-column: 1/span 12;
 }
@@ -710,15 +715,22 @@ footer{
 .bottom-two-part-des{
     flex-direction: column;
 }
-.left-part-des{
+.left-part-des {
     max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
-.right-part-des{
+.right-part-des {
     max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.bottom-part{
+.bottom-part {
     max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .deals-description-part {
     max-width: 60%;
@@ -743,8 +755,10 @@ footer{
 .image-part img {
     width: 552px;
     height: 615px;
+    margin-left: 20px;
+    margin-right: 18px;
+    max-width: 93%;
 }
-
 .perfect-section{
     flex-direction: column;
     margin: 20px;
@@ -772,6 +786,12 @@ footer{
     max-width: 100%;
     margin-left: 0;
 }
+.image-newsletter-part img {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 93%;
+}
+
 .btn-part-newsletter .btn-travel {
     padding: 20px 37px 20px 54px;
     margin-top: -161px;
